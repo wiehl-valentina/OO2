@@ -1,0 +1,17 @@
+package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
+
+public abstract class Opcion {
+	private int index; 
+	
+	// CONSTRUCTOR 
+	public Opcion(int index) {
+		this.index = index; 
+	}
+	
+	// MÉTODOS
+	public int getIndex() {
+		return this.index; 
+	}
+	
+	
+}

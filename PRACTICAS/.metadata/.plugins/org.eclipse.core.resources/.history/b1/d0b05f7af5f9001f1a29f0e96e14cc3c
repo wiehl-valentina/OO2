@@ -1,0 +1,18 @@
+package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
+
+public class Piedra extends Opcion{
+	
+	public Piedra() {
+		super(0);
+	}
+	
+	// MÉTODOS
+	public String comparar(Opcion opc) {
+		if (opc.getIndex() == 1)
+			return "Empate";
+		else if (opc.getIndex() == 2) 
+			return "Victoria del jugador 2";
+		else 
+			return "Victoria del jugador 1"; 
+	}
+}

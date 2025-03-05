@@ -1,0 +1,7 @@
+package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
+
+public class Piedra extends Opcion{
+	public Piedra() {
+		super(0);
+	}
+}
