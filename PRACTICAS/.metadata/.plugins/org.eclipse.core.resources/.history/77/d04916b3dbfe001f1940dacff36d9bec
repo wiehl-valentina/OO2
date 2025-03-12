@@ -1,0 +1,23 @@
+package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
+
+public class Tabla {
+	private String[][] resultados; 
+	
+	public Tabla() {
+		this.resultados[0][0] = "Empate";
+		this.resultados[0][1] = "Derrota"; 
+		this.resultados[0][2] = "Victoria";
+		this.resultados[0][3] = "Victoria";
+		this.resultados[1][0] = "Victoria"; 
+		this.resultados[1][1] = "Empate"; 
+		this.resultados[1][2] = "Derrota"; 
+		this.resultados[1][4] = "Victoria"; 
+		this.resultados[2][0] = "Derrota"; 
+		this.resultados[2][1] = "Victoria";
+		this.resultados[2][2] = "Empate"; 
+	}
+	
+	public String getResultado(int i, int j) {
+		return resultados[i][j];
+	}
+}

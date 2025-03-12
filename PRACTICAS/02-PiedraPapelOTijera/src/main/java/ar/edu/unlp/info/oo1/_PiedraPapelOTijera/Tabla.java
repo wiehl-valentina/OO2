@@ -6,13 +6,25 @@ public class Tabla {
 	public Tabla() {
 		this.resultados[0][0] = "Empate";
 		this.resultados[0][1] = "Derrota"; 
-		this.resultados[0][2] = "Victoria"; 
+		this.resultados[0][2] = "Victoria";
+		this.resultados[0][3] = "Victoria";
 		this.resultados[1][0] = "Victoria"; 
 		this.resultados[1][1] = "Empate"; 
 		this.resultados[1][2] = "Derrota"; 
+		this.resultados[1][4] = "Victoria"; 
 		this.resultados[2][0] = "Derrota"; 
 		this.resultados[2][1] = "Victoria";
-		this.resultados[2][2] = "Empate"; 
+		this.resultados[2][2] = "Empate";
+		this.resultados[2][3] = "Victoria"; 
+		this.resultados[3][0] = "Derrota"; 
+		this.resultados[3][1] = "Victoria";
+		this.resultados[3][2] = "Derrota"; 
+		this.resultados[3][3] = "Empate"; 
+		this.resultados[3][4] = "Victoria"; 
+		this.resultados[4][0] = "Victoria"; 
+		this.resultados[4][1] = "Derrota"; 
+		this.resultados[4][2] = "Victoria"; 
+		this.resultados[4][4] = "Empate"; 
 	}
 	
 	public String getResultado(int i, int j) {

@@ -1,13 +1,11 @@
 package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
 
 public abstract class Opcion {
-	private Tabla resultados; 
-	private int index; 
+	protected int index; 
 	
 	// CONSTRUCTOR 
 	public Opcion(int index) {
 		this.index = index;
-		this.resultados = new Tabla(); 
 	}
 	
 	// MÉTODOS
@@ -15,7 +13,7 @@ public abstract class Opcion {
 		return this.index; 
 	}
 	
-	public String comparar(Opcion opc) {
-		return this.resultados.getResultado(this.getIndex(), opc.getIndex());
+	public String comparar(Opcion opc, Tabla resultados) {
+		return resultados.getResultado(this.index, opc.getIndex());
 	}
 }

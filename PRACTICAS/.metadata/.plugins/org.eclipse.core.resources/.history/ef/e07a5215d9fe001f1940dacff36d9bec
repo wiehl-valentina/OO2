@@ -1,0 +1,11 @@
+package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
+
+public class Juego {
+	private Tabla resultado; 
+	private List<Jugador> jugadores; 
+	
+	// CONSTRUCTOR
+	public Juego() {
+		this.jugadores = nwe ArrayList<Jugador>(); 
+	}
+}

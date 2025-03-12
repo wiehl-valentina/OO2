@@ -456,3 +456,12 @@ org.eclipse.core.runtime.CoreException: Launch configuration TwitterTest referen
 2025-03-05 16:14:51,470 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\test\resources
 2025-03-05 16:14:59,075 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\main\resources
 2025-03-05 16:14:59,077 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\test\resources
+2025-03-10 20:44:16,906 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-10 20:44:40,679 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\main\resources
+2025-03-10 20:44:40,686 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\test\resources
+2025-03-10 20:45:29,509 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\main\resources
+2025-03-10 20:45:29,511 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\test\resources
+2025-03-10 20:45:34,760 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\main\resources
+2025-03-10 20:45:34,763 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\test\resources
+2025-03-10 20:45:37,183 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\main\resources
+2025-03-10 20:45:37,185 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ObjetosDos\PRACTICAS\02-PiedraPapelOTijera\src\test\resources
