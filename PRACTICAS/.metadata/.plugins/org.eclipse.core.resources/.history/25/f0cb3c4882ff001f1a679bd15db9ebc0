@@ -14,6 +14,6 @@ public class Jugador {
 	}
 	
 	public String determinarGanador(Jugador jugador2, Tabla resultados) {
-		return resultados.getResultado(this.opcion.getIndex(), jugador2.getOpcion().getIndex());
+		
 	}
 }

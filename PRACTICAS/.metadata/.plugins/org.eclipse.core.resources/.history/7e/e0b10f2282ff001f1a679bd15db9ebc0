@@ -12,4 +12,8 @@ public abstract class Opcion {
 	public int getIndex() {
 		return this.index; 
 	}
+	
+	public String comparar(Opcion opc, Tabla resultados) {
+		return resultados.getResultado(this.index, opc.getIndex());
+	}
 }

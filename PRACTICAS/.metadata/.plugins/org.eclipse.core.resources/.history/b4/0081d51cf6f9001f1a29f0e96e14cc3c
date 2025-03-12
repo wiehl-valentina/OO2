@@ -1,9 +1,0 @@
-package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
-
-public class Jugador {
-	private Opcion opcion; 
-	
-	public Jugador(Opcion opc) {
-		this.opcion = opc; 
-	}
-}

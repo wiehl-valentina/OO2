@@ -9,7 +9,7 @@ public class Juego {
 	
 	// CONSTRUCTOR
 	public Juego() {
-		this.resultados = new Tabla(); 
+		this.resultado = new Tabla(); 
 		this.jugadores = new ArrayList<Jugador>(); 
 	}
 	

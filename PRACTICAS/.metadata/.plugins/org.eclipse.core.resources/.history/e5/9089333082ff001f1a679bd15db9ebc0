@@ -13,7 +13,7 @@ public class Jugador {
 		return this.opcion; 
 	}
 	
-	public String determinarGanador(Jugador jugador2, Tabla resultados) {
-		return resultados.getResultado(this.opcion.getIndex(), jugador2.getOpcion().getIndex());
+	public void determinarGanador(Jugador jugador2, Tabla resultados) {
+		this.opcion.comparar(jugador2.getOpcion(), resultados);
 	}
 }
