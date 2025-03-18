@@ -1,19 +1,19 @@
 package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
 
 public class Jugador {
-	private Opcion opcion; 
+	private Jugada jugada; 
 	
 	// CONSTRUCTOR
-	public Jugador(Opcion opc) {
-		this.opcion = opc; 
+	public Jugador(Jugada opc) {
+		this.jugada = opc; 
 	}
 	
 	// MÉTODOS
-	public Opcion getOpcion() {
-		return this.opcion; 
+	public Jugada getJugada() {
+		return this.jugada; 
 	}
 	
-	public String determinarGanador(Jugador jugador2, Tabla resultados) {
-		return resultados.getResultado(this.opcion.getIndex(), jugador2.getOpcion().getIndex());
+	public String enfrentarJugador(Jugador jugador) {
+		return this.jugada.determinarGanador(jugador.getJugada());
 	}
 }

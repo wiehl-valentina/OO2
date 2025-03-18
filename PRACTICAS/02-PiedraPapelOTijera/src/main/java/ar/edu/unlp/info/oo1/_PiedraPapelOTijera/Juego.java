@@ -4,12 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Juego {
-	private Tabla resultados; 
 	private List<Jugador> jugadores; 
 	
 	// CONSTRUCTOR
 	public Juego() {
-		this.resultados = new Tabla(); 
 		this.jugadores = new ArrayList<Jugador>(); 
 	}
 	
@@ -24,6 +22,6 @@ public class Juego {
 	}
 	
 	public void enfrentarJugadores(Jugador jugador1, Jugador jugador2) {
-		jugador1.determinarGanador(jugador2, resultados);
+		jugador1.enfrentarJugador(jugador2);
 	}
 }

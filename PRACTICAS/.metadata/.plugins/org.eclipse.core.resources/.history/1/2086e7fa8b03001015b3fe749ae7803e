@@ -1,0 +1,10 @@
+package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
+
+public interface Jugada {
+	public String enfrentarPiedra();
+	public String enfrentarPapel();
+	public String enfrentarTijera(); 
+	public String enfrentarLagarto();
+	public String enfrentarSpock();
+	public String jugarContra(Jugada otraJugada);
+}

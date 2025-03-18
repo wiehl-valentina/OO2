@@ -1,7 +1,27 @@
 package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
 
-public class Tijera extends Opcion{
-	public Tijera() {
-		super(2); 
+public class Tijera implements Jugada{
+	public String enfrentarPiedra() {
+		return "Derrota"; 
+	}
+	
+	public String enfrentarPapel() {
+		return "Victoria"; 
+	}
+	
+	public String enfrentarTijera() {
+		return "Empate";
+	}
+	
+	public String enfrentarLagarto() {
+		return "Victoria";
+	}
+	
+	public String enfrentarSpock() {
+		return "Derrota"; 
+	}
+	
+	public String determinarGanador(Jugada otraJugada) {
+		return otraJugada.enfrentarTijera(); 
 	}
 }
