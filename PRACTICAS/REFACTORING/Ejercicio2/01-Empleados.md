@@ -493,9 +493,9 @@ Aplico el refactoring "Extract Superclass" haciendo uso de  "Pull Up Field", "Pu
 
 ~~~java
 public abstract class Empleado {
-    private String nombre;
-    private String apellido;
-    private double sueldoBasico;
+    protected String nombre;
+    protected String apellido;
+    protected double sueldoBasico;
 
     public Empleado(String nombre, String apellido) {
         this.nombre = nombre; 
@@ -605,9 +605,9 @@ Modifico el nombre del método sueldo() por uno más descriptivo de la tarea que
 
 ~~~java
 public abstract class Empleado {
-    private String nombre;
-    private String apellido;
-    private double sueldoBasico;
+    protected String nombre;
+    protected String apellido;
+    protected double sueldoBasico;
 
     public Empleado(String nombre, String apellido) {
         this.nombre = nombre; 
@@ -717,9 +717,9 @@ Aplico el refactoring "Extract Superclass" haciendo uso de  "Pull Up Field", "Pu
 
 ~~~java
 public abstract class Empleado {
-    private String nombre;
-    private String apellido;
-    private double sueldoBasico;
+    protected String nombre;
+    protected String apellido;
+    protected double sueldoBasico;
 
     public Empleado(String nombre, String apellido) {
         this.nombre = nombre; 
@@ -747,7 +747,7 @@ public abstract class Empleado {
 }
 
 public class EmpleadoConHijos extends Empleado {
-    private int cantidadHijos; 
+    protected int cantidadHijos; 
 
     public EmpleadoConHijos(String nombre, String apellido, int cantidadHijos) {
         super(nombre, apellido); 
@@ -815,7 +815,7 @@ public class EmpleadoPasante extends Empleado {
 </br> 
 
 <u><i>Refactoring</i></u> </br>
-   * introduce Explaining Variable ó
+   * Introduce Explaining Variable ó
    * Extract Method.
 </br> 
 
