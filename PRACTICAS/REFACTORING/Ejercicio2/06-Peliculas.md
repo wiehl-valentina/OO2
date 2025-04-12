@@ -3,6 +3,7 @@
 <div align='center'> 
 
 ![](/Ejercicio2/images/ej6.png)
+
 </div>
 
 ~~~java
