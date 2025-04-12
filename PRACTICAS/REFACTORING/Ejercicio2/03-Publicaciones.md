@@ -2,7 +2,7 @@
 
 <div align='center'>
 
-![](/Ejercicio2/images/ej3.png)
+![](../Ejercicio2/images/ej3.png)
 </div>
 
 ~~~java
@@ -117,7 +117,7 @@ public List<Post> obtenerUltimosNPosts(List<Posts> posts, int limite) {
 ~~~
 <div align='center'>
 
-![](/Ejercicio2/images/ej3ref1.png)
+![](../Ejercicio2/images/ej3ref1.png)
 </div>
 
 <u><i>Code smells</i></u> </br>
@@ -182,5 +182,5 @@ public class Post {
 
 <div align='center'>
 
-![](/Ejercicio2/images/ej3ref2.png)
+![](../Ejercicio2/images/ej3ref2.png)
 </div>

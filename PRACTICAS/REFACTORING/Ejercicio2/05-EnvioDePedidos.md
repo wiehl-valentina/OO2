@@ -2,7 +2,7 @@
 
 <div align='center'> 
 
-![](/Ejercicio2/images/ej5.png)
+![](../Ejercicio2/images/ej5.png)
 </div>
 
 ~~~java
@@ -72,7 +72,7 @@ public class Cliente {
 ~~~
 <div align='center'> 
 
-![](/Ejercicio2/images/ej5ref1.png)
+![](../Ejercicio2/images/ej5ref1.png)
 </div>
 
 <u><i>Code smells</i></u> </br>
@@ -113,7 +113,7 @@ public class Cliente {
 ~~~
 <div align='center'> 
 
-![](/Ejercicio2/images/ej5ref2.png)
+![](../Ejercicio2/images/ej5ref2.png)
 </div>
 
 <u><i>Code smells</i></u> </br>
@@ -128,5 +128,5 @@ public class Cliente {
 Cambio la visibilidad de los atributos de la clase Cliente.
 <div align='center'> 
 
-![](/Ejercicio2/images/ej5ref3.png)
+![](../Ejercicio2/images/ej5ref3.png)
 </div>

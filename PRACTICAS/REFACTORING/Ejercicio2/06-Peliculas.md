@@ -2,7 +2,7 @@
 
 <div align='center'> 
 
-![](/Ejercicio2/images/ej6.png)
+![](../Ejercicio2/images/ej6.png)
 </div>
 
 ~~~java
@@ -114,7 +114,7 @@ public class Pelicula {
 }
 ~~~
 
-<div> 
+<div align='center'> 
 
-![](/Ejercicio2/images/ej06.png)
+![](../Ejercicio2/images/ej06.png)
 </div>
