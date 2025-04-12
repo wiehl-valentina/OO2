@@ -1,7 +1,7 @@
 # 2.4 Carrito de compras
 <div align='center'>
 
-![](ej4.png)
+![](/Ejercicio2/images/ej4.png)
 </div>
 
 ~~~java
@@ -95,7 +95,7 @@ public class Carrito {
 
 <div align='center'>
 
-![](ej4ref1.png)
+![](/Ejercicio2/images/ej4ref1.png)
 </div>
 
 <u><i>Code smells</i></u> </br>
@@ -151,5 +151,5 @@ public class Carrito {
 
 <div align='center'>
 
-![](ej4ref2.png)
+![](/Ejercicio2/images/ej4ref2.png)
 </div>
