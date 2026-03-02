@@ -1,7 +1,0 @@
-package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
-
-public class Piedra implements Jugada{
-	public String enfrentarPiedra() {
-		return "Empate"; 
-	}
-}

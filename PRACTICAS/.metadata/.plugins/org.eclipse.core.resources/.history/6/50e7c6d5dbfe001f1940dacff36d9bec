@@ -1,7 +1,0 @@
-package ar.edu.unlp.info.oo1._PiedraPapelOTijera;
-
-public class Spock {
-	public Spock() {
-		super(4); 
-	}
-}
