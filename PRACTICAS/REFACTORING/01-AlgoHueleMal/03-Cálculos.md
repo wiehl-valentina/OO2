@@ -19,7 +19,7 @@ public void imprimirValores() {
 ```
 
 ## Code smells
-### 1. El cálculo promedio de edades puede simplificarse usando streams.
+### 1. Imperative Loops. El cálculo promedio de edades puede simplificarse usando streams.
 #### Resolución: aplicar <i>Replace Loop with Pipeline</i>.
 ```java
 public void imprimirValores() {
@@ -32,7 +32,7 @@ public void imprimirValores() {
 }
 ```
 
-### 2. El cálculo total de salarios también puede realizarse de forma más sencilla usando streams.
+### 2. Imperative Loops. El cálculo total de salarios también puede realizarse de forma más sencilla usando streams.
 #### Resolución: aplicar <i>Replace Loop with Pipeline</i>.
 ```java
 public void imprimirValores() {
@@ -88,7 +88,7 @@ public double calcularPromedioEdades() {
 }
 ```
 
-### 5. El nombre del método imprimirValores() es poco descriptivo.
+### 5. Uncommunicative Name. El nombre del método imprimirValores() es poco descriptivo.
 #### Resolución: aplicar <i>Rename Method</i>.
 ```java
 public void imprimirPromedioEdades() {
