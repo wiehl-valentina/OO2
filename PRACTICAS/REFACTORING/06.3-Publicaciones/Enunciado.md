@@ -219,7 +219,7 @@ public class Usuario {
 }
 ```
 
-* ### Long Method.
+* ### Long Method y Comments.
     El método `ultimosPosts()` realiza muchas tareas y sería mejor descomponerlo en métodos más cortos y específicos. Aplico `Extract Method` para solucionarlo.
 
 ```java
