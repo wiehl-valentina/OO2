@@ -241,7 +241,7 @@ public class PostApp {
 
     }
 
-    public List<Post> obtenerPostsOtrosUsuarios(Usuario user) {
+    private List<Post> obtenerPostsOtrosUsuarios(Usuario user) {
         
         return posts.stream()
         .filter(post -> !post.perteneceAUsuario(user))
@@ -249,7 +249,7 @@ public class PostApp {
     
     }
 
-    public void ordenarPosts(List<Post> postsOtrosUsuarios) {
+    private void ordenarPosts(List<Post> postsOtrosUsuarios) {
         
         for (int i = 0; i < postsOtrosUsuarios.size(); i++) {
            int masNuevo = i;
@@ -265,7 +265,7 @@ public class PostApp {
 
     }
 
-    public List<Post> obtenerNPosts(List<Post> posts, int n) {
+    private List<Post> obtenerNPosts(List<Post> posts, int n) {
         
         List<Post> ultimosPosts = new ArrayList<Post>();
         int index = 0;
@@ -329,7 +329,7 @@ public class PostApp {
 
     }
 
-    public List<Post> obtenerPostsOtrosUsuarios(Usuario user) {
+    private List<Post> obtenerPostsOtrosUsuarios(Usuario user) {
         
         return posts.stream()
         .filter(post -> !post.perteneceAUsuario(user))
@@ -337,7 +337,7 @@ public class PostApp {
     
     }
 
-    public void ordenarPosts(List<Post> posts) {
+    private void ordenarPosts(List<Post> posts) {
         
         return posts.streams()
         .sorted((post1, post2) -> post2.getFecha().compareTo(post1.getFecha()))
@@ -345,7 +345,7 @@ public class PostApp {
 
     }
 
-    public List<Post> obtenerNPosts(List<Post> posts, int n) {
+    private List<Post> obtenerNPosts(List<Post> posts, int n) {
         
         return posts.stream()
         .limit(n)
