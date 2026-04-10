@@ -1,4 +1,4 @@
-# Ejercicio 6.3 Publicaciones
+# Ejercicio 6.3 Carrito De Compras
 Realice en forma iterativa los siguientes pasos:
 * (i) indique el mal olor,
 * (ii) indique el refactoring que lo corrige, 
