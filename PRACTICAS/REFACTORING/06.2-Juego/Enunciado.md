@@ -166,11 +166,11 @@ public class Jugador {
     }
 
     public void incrementarPuntuacion() {
-        this.puntuacion = this.puntuacion + 100; 
+        this.puntuacion += 100; 
     }
 
     public void decrementarPuntuacion() {
-        this.puntuacion = this.puntuacion - 50; 
+        this.puntuacion -= 50; 
     }
 
 }
