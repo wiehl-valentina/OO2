@@ -134,3 +134,5 @@ public class Carrito {
     }
 }
 ```
+
+* ### qué pasa con producto?
