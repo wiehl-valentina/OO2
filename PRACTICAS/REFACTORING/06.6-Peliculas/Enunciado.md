@@ -115,12 +115,14 @@ public class Usuario {
     Subscripcion subscripcion;
     // ...
 
-    public void setTipoSubscripcion(String unTipo) {
-   	    this.tipoSubscripcion = unTipo;
+    public void setTipoSubscripcion(Subscripcion subscripcion) {
+   	    this.subscripcion = subscripcion;
     }
     
     public double calcularCostoPelicula(Pelicula pelicula) {
-        double costo = 
+        // * * REPLACE TEMP WITH QUERY?
+        double costo = subscripcion.calcularCosto(pelicula);
+        return costo; 
     }
 }
 ```
@@ -167,19 +169,21 @@ public class SubscripcionPremium {
 ```
 
 * ### Comments
-    El comentario en el método `calcularCargoExtraPorEstreno()` de la clase `Pelicula` se puede eliminar aplicando `Extract Method` para crear un método que calcule hace cuánto se estrenó una película y  esté nombrado adecuadamente.
+    El comentario en el método `calcularCargoExtraPorEstreno()` de la clase `Pelicula` se puede eliminar aplicando `Extract Method` para crear un método que calcule hace cuánto se estrenó una película y esté nombrado adecuadamente.
 
 ```java
 public class Usuario {
     Subscripcion subscripcion;
     // ...
 
-    public void setTipoSubscripcion(String unTipo) {
-   	    this.tipoSubscripcion = unTipo;
+    public void setTipoSubscripcion(Subscripcion subscripcion) {
+   	    this.subscripcion = subscripcion;
     }
     
     public double calcularCostoPelicula(Pelicula pelicula) {
-        double costo = 
+        // * * REPLACE TEMP WITH QUERY?
+        double costo = subscripcion.calcularCosto(pelicula);
+        return costo; 
     }
 }
 ```
