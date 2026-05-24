@@ -1,4 +1,4 @@
-package patrones._DecodificadorDePeliculas;
+ package patrones._DecodificadorDePeliculas;
 
 import java.util.*;
 
