@@ -14,4 +14,8 @@ public class ArmaduraDeAcero implements Armadura {
 		return 1;
 	}
 	
+	public int recibirDaño(Martillo martillo) {
+		return 4;
+	}
+	
 }

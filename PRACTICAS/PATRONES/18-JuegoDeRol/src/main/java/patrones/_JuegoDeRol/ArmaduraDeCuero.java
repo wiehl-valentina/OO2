@@ -13,5 +13,9 @@ public class ArmaduraDeCuero implements Armadura {
 	public int recibirDaño(Baston baston) {
 		return 2;
 	}
+	
+	public int recibirDaño(Martillo martillo) {
+		return 10;
+	}
 
 }

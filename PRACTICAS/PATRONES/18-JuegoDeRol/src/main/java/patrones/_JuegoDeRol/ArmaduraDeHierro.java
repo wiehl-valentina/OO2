@@ -16,5 +16,9 @@ public class ArmaduraDeHierro implements Armadura {
 	public int recibirDaño(Baston baston) {
 		return 1;
 	}
+	
+	public int recibirDaño(Martillo martillo) {
+		return 8;
+	}
 
 }

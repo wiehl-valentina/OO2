@@ -6,6 +6,7 @@ public enum Habilidad {
 	A_DISTANCIA,
 	CURACION,
 	MAGIA,
-	ARQUERIA
+	ARQUERIA,
+	LANZA_RAYOS,
 
 }
